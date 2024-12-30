@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { items } from './data.jsx';
+import { items } from './Data.jsx';
 import { useEffect } from 'react';
 import Products from './Products.jsx';
 
