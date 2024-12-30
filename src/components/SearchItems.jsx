@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { items } from './data';
+import { items } from './data.jsx';
 import { useEffect } from 'react';
-import Products from './Products';
+import Products from './Products.jsx';
 
 const SearchItems = ({ cart, setCart }) => {
   const { term } = useParams();
