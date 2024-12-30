@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { items } from './data.jsx'
+import { items } from './Data.jsx'
 import { FaCartShopping } from 'react-icons/fa6';
 
 const Navbar = ({ setData, cart }) => {
