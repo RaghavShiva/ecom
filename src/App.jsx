@@ -4,9 +4,9 @@ import Products from './components/Products.jsx'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ProductDetails from './components/ProductDetails.jsx'
 import SearchItems from './components/SearchItems.jsx'
-import Cart from './components/cart.jsx'
+import Cart from './components/Cart.jsx'
 import Account from './components/Account.jsx'
-import { items } from './components/data.jsx'
+import { items } from './components/Data.jsx'
 
 const App = () => {
   const [data, setData] = useState([...items])
