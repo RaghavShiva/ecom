@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import Products from './components/Products'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ProductDetails from './components/ProductDetails'
