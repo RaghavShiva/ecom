@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { items } from './data'
 import { FaCartShopping } from 'react-icons/fa6';
 
-const Navbar = ({ setData, cart }) => {
+const navbar = ({ setData, cart }) => {
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -95,4 +95,4 @@ const Navbar = ({ setData, cart }) => {
     )
 }
 
-export default Navbar
+export default navbar
